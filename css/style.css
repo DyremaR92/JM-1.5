@@ -1,0 +1,33 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTlakes/TTLakes-Bold.ttf') format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTlakes/TTLakes-Medium.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../fonts/TTlakes/TTLakes-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'TT Lakes', Arial, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Brands */
+
