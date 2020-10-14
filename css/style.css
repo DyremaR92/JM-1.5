@@ -31,3 +31,84 @@ body {
 
 /* Brands */
 
+.brands {
+    max-width: 320px;
+    width: 100%;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: #F2F2F2;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.brands__title {
+    margin-top: 0;
+    display: block;
+    padding: 16px;
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: #7E7E82;
+    text-transform: uppercase;
+
+    margin-bottom: 16px;
+}
+
+.brands__tabs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.brand {
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+.brand__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 208px;
+    height: 40px;
+    background-color: #fff;
+}
+
+.brand__logo {
+}
+
+.brand__button-forward {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+
+    background: url('../icons/buttons/arrow-right.png') center center no-repeat;
+}
+
+.brands__paginator {
+}
+
+.brands__show-button {
+    display: none;
+}
+
+.button__show {
+}
+
+.button__show--more {
+
+}
+
+.button__show--less {
+    display: none;
+}
