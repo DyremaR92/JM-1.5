@@ -45,6 +45,7 @@ body {
 
 .container {
     padding: 0 16px;
+    height: 100%;
 }
 
 .brands__title {
@@ -70,7 +71,7 @@ body {
 
 .brand {
     flex-shrink: 0;
-    margin-right: 16px;
+    margin-bottom: 16px;
 }
 
 .brand__link {
@@ -93,9 +94,6 @@ body {
     border-radius: 50%;
 
     background: url('../icons/buttons/arrow-right.png') center center no-repeat;
-}
-
-.brands__paginator {
 }
 
 .brands__show-button {

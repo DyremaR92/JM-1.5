@@ -6,38 +6,39 @@
     <title>JM 1.4</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/swiper-custom.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="brands">
+    <section class="brands ">
         <div class="brands__title">Ремонт техники различных брендов</div>
-        <div class="container">
-            <div class="brands__tabs">
-                <div class="brands__tab-item brand">
+        <div class="container swiper-container">
+            <div class="brands__tabs swiper-wrapper">
+                <div class="brands__tab-item brand swiper-slide">
                     <a href="#" class="brand__link">
                         <img src="img/brands/lenovo.png" alt="lenovo" class="brand__logo">
                         <button class="brand__button-forward"></button>
                     </a>
                 </div>
-                <div class="brands__tab-item brand">
+                <div class="brands__tab-item brand swiper-slide">
                     <a href="#" class="brand__link">
                         <img src="img/brands/samsung.png" alt="samsung" class="brand__logo">
                         <button class="brand__button-forward"></button>
                     </a>
                 </div>
-                <div class="brands__tab-item brand">
+                <div class="brands__tab-item brand swiper-slide">
                     <a href="#" class="brand__link">
                         <img src="img/brands/apple.png" alt="apple" class="brand__logo">
                         <button class="brand__button-forward"></button>
                     </a>
                 </div>
-                <div class="brands__tab-item brand">
+                <div class="brands__tab-item brand swiper-slide">
                     <a href="#" class="brand__link">
                         <img src="img/brands/bosch.png" alt="bosch" class="brand__logo">
                         <button class="brand__button-forward"></button>
                     </a>
                 </div>
-                <div class="brands__tab-item brand">
+                <div class="brands__tab-item brand swiper-slide">
                     <a href="#" class="brand__link">
                         <img src="img/brands/hp.png" alt="hp" class="brand__logo">
                         <button class="brand__button-forward"></button>
@@ -80,7 +81,7 @@
                     </a>
                 </div>
             </div>
-            <div class="brands__paginator"></div>
+            <div class="swiper-pagination"></div>
             <div class="brands__show-button">
                 <button class="button__show button__show--more">Показать все</button>
                 <button class="button__show button__show--less">Скрыть</button>
