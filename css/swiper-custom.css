@@ -1,7 +1,38 @@
-.swiper-pagination {
-
-}
-
 :root {
     --swiper-theme-color: #B5B6BC;
+}
+
+.swiper-container {
+    display: flex;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 240px;
+}
+
+.swiper-pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #ddd;
+    opacity: 0.2;
 }

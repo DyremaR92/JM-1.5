@@ -63,14 +63,7 @@ body {
     margin-bottom: 16px;
 }
 
-.brands__tabs {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
 .brand {
-    flex-shrink: 0;
     margin-bottom: 16px;
 }
 
