@@ -3,6 +3,6 @@ let swiper = new Swiper ('.container', {
         el: '.swiper-pagination'
     },
     clickable: true,
-    slidesPerView: 'auto',
-    spaceBetween : 32,
+    // slidesPerView: 'auto',
+    // spaceBetween : 32,
 });
