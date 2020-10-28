@@ -1,5 +1,14 @@
-.swiper-container {
+.swiper-container { /* Размер контейнера */
+    width: 100%;
     height: 125px;
+}
+
+.swiper-wrapper {
+    padding: 0 16px;
+}
+
+.swiper-slide { /* Размер слайда */
+    width: 80%;
 }
 
 .swiper-pagination-bullet {
